@@ -19,4 +19,4 @@ echo "--- Fetching a sample JSON with curl + jq ---"
 curl -s https://api.github.com/repos/docker/docker | jq '{name, description, stargazers_count}'
 
 echo ""
-echo "===== Done ====="
+echo "===== Hello ====="
